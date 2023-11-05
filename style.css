@@ -1,12 +1,13 @@
 body {
-  font-family: "Poppins", sans-serif;
+  background-image: url("images/header.jpg");
+  background-size: cover;
 }
 
 header {
-  background-image: url("images/header.jpg");
-  background-size: cover;
-  padding: 120px;
+  padding: 30px;
   text-align: center;
+  color: rgb(55, 55, 55);
+  margin-bottom: 50px;
 }
 header h1 {
   font-size: 64px;
@@ -17,4 +18,25 @@ header h3 {
   border-radius: 8px;
   margin-top: 20px;
   font-family: "Poppins", sans-serif;
+  color: rgb(40, 40, 40);
+}
+
+main {
+  background: rgba(183, 178, 178, 0.7);
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin: 0 auto;
+  width: 50%;
+}
+
+main h2 {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 26px;
+  text-align: center;
+  color: rgb(55, 55, 55);
+}
+main p {
+  line-height: 1.5;
+  text-align: center;
 }
