@@ -22,7 +22,7 @@ header h3 {
 }
 
 main {
-  background: rgba(183, 178, 178, 0.7);
+  background: rgb(97, 204, 214, 0.6);
   padding: 10px 20px;
   border-radius: 8px;
   margin: 0 auto;
@@ -43,7 +43,7 @@ main p {
 }
 
 section {
-  background: rgba(183, 178, 178, 0.7);
+  background: rgb(217, 237, 87, 0.6);
   margin: 0 auto;
   padding: 20px;
   border-radius: 8px;
@@ -55,6 +55,31 @@ section div {
   font-size: 24px;
   text-align: center;
   font-family: "Lora", serif;
+}
+.links-info {
+  background: rgb(240, 174, 158, 0.6);
+  padding: 10px;
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  color: rgb(55, 55, 55);
+  text-align: center;
+}
+.links-info h2 {
+  font-size: 24px;
+  font-family: "Lora", serif;
+}
+.links-info a {
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(55, 55, 55);
+}
+.links-info a:hover {
+  color: rgb(52, 94, 80);
+}
+img {
+  border-radius: 8px;
 }
 
 @media (max-width: 800px) {
@@ -80,6 +105,15 @@ section div {
     width: 100%;
     padding: 0;
     margin: 0;
+    font-size: 12px;
+  }
+  .links-info {
+    max-width: 100%;
+  }
+  .links-info h2 {
+    font-size: 20px;
+  }
+  .links-info a {
     font-size: 12px;
   }
 }
